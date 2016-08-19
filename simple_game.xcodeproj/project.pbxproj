@@ -12,6 +12,12 @@
 		D56D51A11D67363F00E27801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56D519F1D67363F00E27801 /* Main.storyboard */; };
 		D56D51A31D67363F00E27801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56D51A21D67363F00E27801 /* Assets.xcassets */; };
 		D56D51A61D67363F00E27801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56D51A41D67363F00E27801 /* LaunchScreen.storyboard */; };
+		D56D51AE1D6749EA00E27801 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D51AD1D6749EA00E27801 /* Character.swift */; };
+		D56D51B01D674BA900E27801 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D51AF1D674BA900E27801 /* Soldier.swift */; };
+		D56D51B21D674CDA00E27801 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D51B11D674CDA00E27801 /* Enemy.swift */; };
+		D56D51B41D67A42100E27801 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = D56D51B31D67A42100E27801 /* win.wav */; };
+		D56D51B61D67AAD500E27801 /* attack.wav in Resources */ = {isa = PBXBuildFile; fileRef = D56D51B51D67AAD500E27801 /* attack.wav */; };
+		D56D51B81D67B26500E27801 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D56D51B71D67B26500E27801 /* background.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		D56D51A21D67363F00E27801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D56D51A51D67363F00E27801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D56D51A71D67363F00E27801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56D51AD1D6749EA00E27801 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D56D51AF1D674BA900E27801 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		D56D51B11D674CDA00E27801 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		D56D51B31D67A42100E27801 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = ../win.wav; sourceTree = "<group>"; };
+		D56D51B51D67AAD500E27801 /* attack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = attack.wav; sourceTree = "<group>"; };
+		D56D51B71D67B26500E27801 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		D56D519A1D67363F00E27801 /* simple_game */ = {
 			isa = PBXGroup;
 			children = (
+				D56D51B31D67A42100E27801 /* win.wav */,
+				D56D51B51D67AAD500E27801 /* attack.wav */,
+				D56D51B71D67B26500E27801 /* background.mp3 */,
 				D56D519B1D67363F00E27801 /* AppDelegate.swift */,
 				D56D519D1D67363F00E27801 /* ViewController.swift */,
+				D56D51AD1D6749EA00E27801 /* Character.swift */,
+				D56D51AF1D674BA900E27801 /* Soldier.swift */,
+				D56D51B11D674CDA00E27801 /* Enemy.swift */,
 				D56D519F1D67363F00E27801 /* Main.storyboard */,
 				D56D51A21D67363F00E27801 /* Assets.xcassets */,
 				D56D51A41D67363F00E27801 /* LaunchScreen.storyboard */,
@@ -125,7 +143,10 @@
 			files = (
 				D56D51A61D67363F00E27801 /* LaunchScreen.storyboard in Resources */,
 				D56D51A31D67363F00E27801 /* Assets.xcassets in Resources */,
+				D56D51B81D67B26500E27801 /* background.mp3 in Resources */,
 				D56D51A11D67363F00E27801 /* Main.storyboard in Resources */,
+				D56D51B61D67AAD500E27801 /* attack.wav in Resources */,
+				D56D51B41D67A42100E27801 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56D51B01D674BA900E27801 /* Soldier.swift in Sources */,
+				D56D51B21D674CDA00E27801 /* Enemy.swift in Sources */,
+				D56D51AE1D6749EA00E27801 /* Character.swift in Sources */,
 				D56D519E1D67363F00E27801 /* ViewController.swift in Sources */,
 				D56D519C1D67363F00E27801 /* AppDelegate.swift in Sources */,
 			);
